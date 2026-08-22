@@ -30,7 +30,7 @@
     position: relative;
   }
 
-  /* KUNCI STATIS: Menggunakan posisi tetap tanpa animasi agar 100% lancar */
+  
   body::before, body::after {
     content: "";
     position: fixed;
@@ -54,7 +54,7 @@
     right: -5%;
   }
 
-  /* Navbar Glassmorphism */
+  
   nav {
     position: fixed;
     width: calc(100% - 40px);
@@ -102,7 +102,7 @@
     margin: auto;
   }
 
-  /* Kotak Atas Glassmorphism */
+  
   .glass-card-top {
     background: var(--glass-bg);
     backdrop-filter: blur(12px);
@@ -114,7 +114,7 @@
     margin-bottom: 40px;
   }
 
-  /* Bagian Tentang Saya - TANPA KOTAK */
+  
   .about-clean-section {
     padding: 10px 15px;
     margin-bottom: 50px;
@@ -139,7 +139,7 @@
     border-radius: 4px;
   }
 
-  /* Bagian Kreasi - KUNCI HORIZONTAL SCROLL */
+  
   .projects-section {
     margin-bottom: 50px;
   }
@@ -156,7 +156,7 @@
     scrollbar-color: rgba(59, 130, 246, 0.2) transparent;
   }
 
-  /* Modifikasi Scrollbar */
+  
   .horizontal-scroll-container::-webkit-scrollbar {
     height: 8px;
   }
@@ -222,7 +222,7 @@
     margin-top: 5px;
   }
 
-  /* Konten Detail */
+  
   .details-content {
     background: rgba(255, 255, 255, 0.45);
     padding: 20px;
@@ -249,7 +249,7 @@
     box-shadow: 0 6px 14px rgba(59, 130, 246, 0.25);
   }
 
-  /* Grid Kontak */
+  
   .contact-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -296,13 +296,13 @@
 
 <div class="container">
 
-  <!-- KOTAK ATAS: Identitas Utama (Wadah Kaca Cerah) -->
+  
   <header class="glass-card-top">
     <h1 style="margin: 0 0 6px 0; font-size: 2.2rem; letter-spacing: -0.5px;">M. Adelio Altisa M.</h1>
     <p style="margin: 0; color: var(--text-muted); font-weight: 500;">Siswa SMA • Developer • OS Enthusiast</p>
   </header>
 
-  <!-- BAGIAN BAWAHNYA: Tentang Saya (TANPA KOTAK) -->
+  
   <section id="about" class="about-clean-section">
     <h2>Tentang Saya</h2>
     <p style="line-height: 1.6; margin-top: 0;">Singkat saja, nama lengkap saya tertera diatas tuu dan saya biasa dipanggil Adelio di lingkungan saya, yap itu panggilan formal universal (klo panggilan khusus sebaiknya jgn dicari tau, aneh2 semua jir??)</p>
@@ -310,7 +310,7 @@
     <p style="line-height: 1.6; margin-bottom: 0;">Untuk bakat dan minat lebih mengarah kepada bidang IT (Information Technology) and yeah, halaman yg anda lihat saat ini adalah hasil kegabutan saya saat libur ramadhan. btw info ps let</p>
   </section>
 
-  <!-- BAGIAN KREASI SAYA: GESER HORIZONTAL -->
+  
   <section id="projects" class="projects-section">
     <h2 style="padding-left: 15px; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
       Kreasi Saya
@@ -333,7 +333,7 @@
         </div>
       </details>
 
-      <!-- Card Proyek 2 -->
+      
       <details>
         <summary>
           <h3 style="margin: 0; font-size: 1.15rem;">Simple Dock</h3>
@@ -348,7 +348,7 @@
         </div>
       </details>
 
-      <!-- Card Proyek 3 -->
+      
       <details>
         <summary>
           <h3 style="margin: 0; font-size: 1.15rem;">Minhy OS</h3>
@@ -379,7 +379,7 @@
     </div>
   </section>
 
-  <!-- BAGIAN KONTAK -->
+  
   <section id="contact" class="about-clean-section" style="margin-top: 40px;">
     <h2>Kontak</h2>
     <div class="contact-grid">
